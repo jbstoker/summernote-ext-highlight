@@ -41,6 +41,7 @@
                 var button = ui.button({
                     contents: '<i class="fa fa-file-code-o"></i>',
                     tooltip: 'highlight',
+                    container: 'body',
                     click: function () {
                         self.show()
                     }
